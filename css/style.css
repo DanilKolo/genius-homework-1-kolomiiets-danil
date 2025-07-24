@@ -1,0 +1,136 @@
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/play-v20-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Play";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/play-v20-latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto-v48-latin-regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/roboto-v48-latin-600.woff2") format("woff2");
+}
+
+:root {
+  --color-primary-light: #ffffff;
+  --color-primary-light-blue: #2b7fff;
+  --color-primary-dark-blue: #011c44;
+  --color-secondary-dark-gray: #4a4a4a;
+  --color-secondary-light-gray: #747272;
+  --color-secondary-dark-blue: #011f4a;
+  --color-secondary-yellow: #ffd02b;
+}
+
+/* Base */
+body {
+  color: var(--color-primary-dark-blue);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+ul {
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Заголовки */
+h1,
+h2,
+h3 {
+  font-family: "Play", sans-serif;
+}
+
+/* Button */
+.button {
+  color: var(--color-primary-light);
+  font-weight: 600;
+  background-color: var(--color-primary-light-blue);
+  border: 2px solid var(--color-primary-light-blue);
+  border-radius: 32px;
+  width: 219px;
+  height: 53px;
+  cursor: pointer;
+}
+
+.button-down {
+  font-size: 12px;
+}
+
+.about-us-text {
+  font-size: 22px;
+}
+
+.button:hover {
+  background-color: transparent;
+  color: var(--color-primary-dark-blue);
+}
+
+/* Link */
+.link {
+  color: var(--color-primary-dark-blue);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: var(--color-primary-light-blue);
+  font-weight: 700;
+}
+
+/* Hero section */
+.hero-title {
+  color: var(--color-primary-light-blue);
+  text-align: left;
+  font-weight: 700;
+  font-size: 140px;
+  line-height: 81%;
+}
+
+.section-title {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.section-title span {
+  color: var(--color-primary-dark-blue);
+}
+
+/* Footer */
+.address-link {
+  color: var(--color-primary-light);
+  font-size: 16px;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.address-link:hover {
+  color: var(--color-primary-light-blue);
+}
+
+.address-copyright {
+  font-size: 14px;
+}
